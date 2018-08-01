@@ -1,0 +1,8 @@
+.background{
+  position: relative;
+  z-index: 0;
+}
+.foreground{
+  position: absolute;
+  z-index: 1;
+}

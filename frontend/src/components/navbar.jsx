@@ -1,7 +1,15 @@
 import React, { PureComponent } from 'react';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+// font-awesome icon
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCameraRetro } from '@fortawesome/free-solid-svg-icons'
+//
+import "../assets/styles/app.css";
+import "../assets/styles/navbar.css";
 
+library.add(faCameraRetro)
 /**
  * CustomNavBar
  */
@@ -12,7 +20,7 @@ export class CustomNavBar extends PureComponent { // eslint-disable-line react/p
         <Navbar.Header>
           <Navbar.Brand>
             <Link to="/">
-              Brand
+                <FontAwesomeIcon icon="camera-retro" size="2x" />
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle />

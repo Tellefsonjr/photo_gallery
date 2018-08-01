@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group'; // ES6
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import CustomNavbar from './components/navbar';
 import { Home } from './components/home';

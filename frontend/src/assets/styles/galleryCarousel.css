@@ -1,0 +1,13 @@
+.carousel, .carousel-inner{
+  max-width: 100vw !important;
+  max-height: 94.43vh !important;
+  position: relative;
+  z-index: 0;
+}
+img{
+  max-width: 100% !important;
+  max-height: 100% !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
