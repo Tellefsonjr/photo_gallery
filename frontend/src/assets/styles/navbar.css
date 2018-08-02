@@ -1,3 +1,16 @@
 nav{
   margin-bottom: 0px !important;
 }
+.navbar-brand{
+  font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+  font-size: 1.5rem !important;
+}
+.brand-top{
+  margin-top: -.25rem;
+}
+.brand-bottom{
+  font-size: 1.25rem !important;
+  margin-left: 1.5rem;
+  margin-top: -0.75rem;
+}

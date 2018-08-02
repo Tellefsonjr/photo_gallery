@@ -24,6 +24,18 @@
   animation:         pulse 2.5s ease-in-out; /* IE 10+, Fx 29+ */
 }
 
+.promo-header{
+  margin: 5px;
+}
+.social-btn-group{
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+}
+.social-btn{
+  font-size: 2.5em;
+}
+
 @-webkit-keyframes pulse {
   0%   { opacity: 0; }
   40%  { opacity: 1; }

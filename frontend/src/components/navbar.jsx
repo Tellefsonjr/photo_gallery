@@ -16,11 +16,16 @@ library.add(faCameraRetro)
 export class CustomNavBar extends PureComponent { // eslint-disable-line react/prefer-stateless-function
   render() {
     return (
-      <Navbar default collapseOnSelect pullLeft>
+      <Navbar inverse fixedTop collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
             <Link to="/">
-                <FontAwesomeIcon icon="camera-retro" size="2x" />
+              <p className="brand-top">
+                Katie Marie's
+              </p>
+              <p className="brand-bottom">
+                Photography
+              </p>
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle />
